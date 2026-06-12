@@ -8094,7 +8094,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm"
 			(at 195.2752 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -10263,7 +10263,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm"
 			(at 102.5652 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -10666,7 +10666,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Transformer_THT:Transformer_Zeming_ZMPT101K"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 71.12 26.67 0)
 			(hide yes)
 			(show_name no)
