@@ -76,7 +76,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "shorting_items|105500000|116000000|86da3f05-ea0e-485c-b398-a9b6e806e849|a329a043-4f46-4cfc-9cf6-557e60e2765e",
+          ""
+        ],
+        [
+          "shorting_items|105612500|128962500|0eeb0ef8-4ccb-4254-bc84-125496121316|b30571b6-928c-4474-b1f9-0ba77506d6fe",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -670,7 +679,7 @@
         "uuid": "3a4aaebe-bd8b-41e0-b5f7-78e0e90c2409"
       }
     ],
-    "used_designators": "J4,R7,#PWR11",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
