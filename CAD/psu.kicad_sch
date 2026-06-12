@@ -5542,6 +5542,86 @@
 		(color 0 0 0 0)
 		(uuid "fccbb2a3-5338-4892-888f-a691adaf7179")
 	)
+	(no_connect
+		(at 158.75 100.33)
+		(uuid "02bb99ff-9d08-4c5b-87cf-34897ae5c6ae")
+	)
+	(no_connect
+		(at 146.05 125.73)
+		(uuid "1b74a5c7-3e76-43f6-9c31-8b199d64ef1c")
+	)
+	(no_connect
+		(at 138.43 125.73)
+		(uuid "26b6e1fa-c36e-431c-8a4c-93bb51487324")
+	)
+	(no_connect
+		(at 128.27 100.33)
+		(uuid "3482380c-8a0f-4747-b536-5618cf729a6f")
+	)
+	(no_connect
+		(at 120.65 125.73)
+		(uuid "34d65038-d7ea-40be-8f86-bce66e7e6fe1")
+	)
+	(no_connect
+		(at 143.51 125.73)
+		(uuid "37541134-3169-467d-8adb-676c3211d182")
+	)
+	(no_connect
+		(at 115.57 115.57)
+		(uuid "385992c4-be4d-45db-ba45-451280c57bb2")
+	)
+	(no_connect
+		(at 148.59 100.33)
+		(uuid "386057b7-b8da-41eb-b3cc-060c32dc6b44")
+	)
+	(no_connect
+		(at 133.35 125.73)
+		(uuid "3e8b22ad-98da-4734-8544-9ad7a2905a89")
+	)
+	(no_connect
+		(at 156.21 125.73)
+		(uuid "49c76a84-d13c-49e3-8bb6-20f30daed8c1")
+	)
+	(no_connect
+		(at 158.75 125.73)
+		(uuid "55486e22-a0f0-45ed-b062-1096bfd6bf75")
+	)
+	(no_connect
+		(at 148.59 125.73)
+		(uuid "58b9c7d5-22c1-4f2c-a241-11804cdab4c5")
+	)
+	(no_connect
+		(at 140.97 125.73)
+		(uuid "68c9292d-7cd5-47a5-b58a-dd36431ed9df")
+	)
+	(no_connect
+		(at 135.89 100.33)
+		(uuid "82dc73a0-ce16-4ce0-a097-6e495ee597a4")
+	)
+	(no_connect
+		(at 125.73 100.33)
+		(uuid "ac089dc3-ebf5-4689-8b71-670d5c01a6e0")
+	)
+	(no_connect
+		(at 153.67 125.73)
+		(uuid "b4eb5f71-a0e3-4780-8d7b-77333bbf5977")
+	)
+	(no_connect
+		(at 115.57 110.49)
+		(uuid "c81ab3df-eb46-415c-a49f-1cb4645e241c")
+	)
+	(no_connect
+		(at 146.05 100.33)
+		(uuid "d0d44682-ac29-42ab-b90c-825abca15b44")
+	)
+	(no_connect
+		(at 156.21 100.33)
+		(uuid "e4211823-89f2-4afa-a253-79be43119b2c")
+	)
+	(no_connect
+		(at 123.19 125.73)
+		(uuid "f6a26747-cc27-4092-96e1-cc5e62ec2237")
+	)
 	(wire
 		(pts
 			(xy 170.18 62.23) (xy 154.94 62.23)
@@ -5581,6 +5661,16 @@
 			(type default)
 		)
 		(uuid "045ce21e-4aeb-45aa-be20-22c23198505e")
+	)
+	(wire
+		(pts
+			(xy 251.46 139.7) (xy 251.46 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04d55429-9cd0-450d-84b3-d04807f17fde")
 	)
 	(wire
 		(pts
@@ -6883,6 +6973,84 @@
 		(uuid "eb10a669-ca21-4ae1-a1a3-b5045f00c232")
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 251.46 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fba6dd2-e05d-4046-a179-8979e912d5d9")
+		(property "Reference" "#PWR011"
+			(at 251.46 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 251.46 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 251.46 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "59da6bb6-f395-4eb1-8c96-3f551f802ead")
+		)
+		(instances
+			(project "psu"
+				(path "/3a4aaebe-bd8b-41e0-b5f7-78e0e90c2409"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Buzzer")
 		(at 129.54 138.43 0)
 		(mirror y)
@@ -6914,7 +7082,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Buzzer_Beeper:Buzzer_15x7.5RM7.6"
 			(at 130.175 135.89 90)
 			(hide yes)
 			(show_name no)
@@ -6997,7 +7165,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
 			(at 93.98 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -7193,7 +7361,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector:Banana_Jack_1Pin"
 			(at 256.54 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -7270,7 +7438,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx01_Piano_10.8x4.1mm_W7.62mm_P2.54mm"
 			(at 44.45 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -7430,7 +7598,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 129.032 30.48 90)
 			(hide yes)
 			(show_name no)
@@ -7587,7 +7755,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Samtec_HPM_THT:Samtec_HPM-03-05-x-S_Straight_1x03_Pitch5.08mm"
 			(at 26.924 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -7672,7 +7840,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 135.89 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -8007,7 +8175,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 227.33 122.682 90)
 			(hide yes)
 			(show_name no)
@@ -8087,7 +8255,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuseholder_Clip-5x20mm_Eaton_1A5601-01_Inline_P20.80x6.76mm_D1.70mm_Horizontal"
 			(at 54.61 23.368 90)
 			(hide yes)
 			(show_name no)
@@ -8245,7 +8413,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
 			(at 154.94 -26.67 0)
 			(hide yes)
 			(show_name no)
@@ -8517,7 +8685,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Vertical"
 			(at 175.26 -34.29 0)
 			(hide yes)
 			(show_name no)
@@ -8624,7 +8792,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NPN"
+		(property "Value" "BC547"
 			(at 242.57 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8635,7 +8803,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
 			(at 300.99 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -8750,7 +8918,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:Diode_Bridge_Diotec_ABS"
+		(property "Footprint" "Diode_THT:Diode_Bridge_Vishay_GBL"
 			(at 97.79 23.495 0)
 			(hide yes)
 			(show_name no)
@@ -8916,7 +9084,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P2.50mm"
 			(at 72.0852 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -8998,7 +9166,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
 			(at 32.7152 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -9081,7 +9249,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Runtron_RM-063_Horizontal"
 			(at 176.53 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -9364,7 +9532,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 106.68 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -9456,7 +9624,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Relay_THT:Relay_SPST_Omron_G5NB"
 			(at 260.35 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -9544,7 +9712,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 201.422 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -9702,7 +9870,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "220"
 			(at 138.43 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9713,7 +9881,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 134.112 130.81 90)
 			(hide yes)
 			(show_name no)
@@ -9793,7 +9961,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 			(at 259.08 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -9897,7 +10065,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA14-H2,5_Horizontal"
 			(at 121.92 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -10014,7 +10182,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 54.102 100.33 90)
 			(hide yes)
 			(show_name no)
@@ -10177,7 +10345,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 104.902 30.48 90)
 			(hide yes)
 			(show_name no)
@@ -10498,7 +10666,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Transformer_THT:Transformer_Zeming_ZMPT101K"
 			(at 71.12 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -10553,6 +10721,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 173.99 62.23 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e695f4a3-356a-4e80-b116-e4f15bf497ca")
+		(property "Reference" "R7"
+			(at 174.244 67.056 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R5/5W"
+			(at 174.244 65.278 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L20.0mm_W6.4mm_P25.40mm"
+			(at 173.99 64.008 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 173.99 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "48b907d4-3b61-425c-b844-eac0868414c9")
+		)
+		(pin "1"
+			(uuid "95986ad8-a313-4e87-b6eb-22e247748566")
+		)
+		(instances
+			(project "psu"
+				(path "/3a4aaebe-bd8b-41e0-b5f7-78e0e90c2409"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 173.99 52.07 90)
 		(unit 1)
@@ -10584,7 +10831,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA14-H2,5_Horizontal"
 			(at 173.99 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -10702,7 +10949,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Runtron_RM-063_Horizontal"
 			(at 45.72 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -10820,7 +11067,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 160.02 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -10875,8 +11122,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 173.99 62.23 90)
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 256.54 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10885,29 +11132,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f84aab44-a318-41eb-b09e-f6a98d192b6e")
-		(property "Reference" "0.5/5W"
-			(at 173.99 68.58 90)
+		(uuid "f65f18ee-e600-4bc2-a153-7256b2444153")
+		(property "Reference" "J4"
+			(at 257.81 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 173.99 66.04 90)
+		(property "Value" "GND/-"
+			(at 257.81 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0922_L20.0mm_D9.0mm_P30.48mm_Horizontal"
-			(at 173.99 64.008 90)
+		(property "Footprint" "Connector:Banana_Jack_1Pin"
+			(at 256.54 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10918,7 +11167,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 62.23 0)
+			(at 256.54 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10928,8 +11177,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 173.99 62.23 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 256.54 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10940,15 +11189,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "dfac0664-385f-4bf7-863e-005c5db98ba7")
-		)
-		(pin "2"
-			(uuid "e4c6cf30-5b59-4a38-8acf-e317b9c1b6a6")
+			(uuid "e8f914b0-e678-4e35-9dfb-8f2c5db712d1")
 		)
 		(instances
 			(project "psu"
 				(path "/3a4aaebe-bd8b-41e0-b5f7-78e0e90c2409"
-					(reference "0.5/5W")
+					(reference "J4")
 					(unit 1)
 				)
 			)
