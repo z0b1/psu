@@ -6,9 +6,13 @@ A clean and simple DIY lab power supply designed for easy assembly, affordable p
 ## Preview
 
 ![PCB preview](assets/pcb.png)
-
+![Schematic preview](assets/sch.png)
+![Routing preview](assets/pcb1.png)
+![Housing preview](assets/housing.png)
 ---
-
+# Lapse link
+[View Timelapses](https://lapse.hackclub.com/timelapse/X90sfIAioK1E)
+---
 # Demo
 
 ## [![View PCB on KiCanvas](https://hack.club/pcb-badge)](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2Fz0b1%2Fpsu%2Fblob%2Fmain%2FCAD%2Fpsu.kicad_pcb) - link to the PCB on KiCanvas

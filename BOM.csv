@@ -1,0 +1,36 @@
+Reference,Qty,Value,Price,Already have
+A1,1,Arduino_Nano, € 1.63 ,
+BZ1,1,T_Buzzer, € 1.43 ,
+C1,1,4700uF 40V, € 1.23 ,
+C2,1,470uF 40v, € 2.82 ,
+C3,1,100n,,x
+C4,1,1u,,x
+D1,1,B40C3300,,xx
+D2,1,LED,,x
+D3,1,D,,x
+D4,1,T_LED,,x
+F1,1,350mA,,x
+J1,1,220VAC,,x
+J2,1,Vout conn,,x
+J3,1,OLED Pins,,x
+J4,1,GND/-,,x
+K1,1,,,x
+Q1,1,tip35c, € 0.89 ,
+Q2,1,BD139, € 4.81 ,
+Q3,1,BC184C, € 1.77 ,
+Q4,1,BC547,,x
+R1,1,3k3,,x
+R2,1,1k,,x
+R3,1,120,,x
+"R4,R5",2,4k7,,x
+R6,1,220,,x
+R7,1,0R5/5W, € 12.83 ,
+"RV1,RV2",2,10k,,x
+RV3,1,500,,x
+RV4,1,50K,,x
+SW1,1,Main,,x
+T1,1,220/24,,x
+U1,1,TL431LP,,x
+U2,1,LM317_TO-220,,x
+U3,1,DS18B20, € 3.60 ,
+,,, € 31.01 ,
