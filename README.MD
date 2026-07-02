@@ -54,3 +54,34 @@ I have also utilized the LM731 VRM so I can provide stable 5V to the Arduino, th
 Big shoutout to my father, without him, having patience and will to work is getting hard as I easily get annoyed but he gets me to enjoy this, also he's the main finder of other open source projects which I later work on and modify
 ## The idea for the Arduino voltage and current display
 [Link to github repository of the inspo.](https://github.com/tehniq3/PS_reber)
+# Bill Of Materials
+---
+|Reference|Part|Qty|Description|
+|:---|:---:|:---|:---:|
+|A1|Arduino Nano|1|Main microcontroler|
+|BZ1|Buzzer|1|Buzzer|
+|C1-C2|Cap|1|Capacitor|
+|C3|Cap|1|Capacitor|
+|C4|Cap|1|Capacitor|
+|D1|Gretz|1|Rectifier|
+|D2-D4|LED|1|LED|
+|D3|Diode|1|Diode|
+|F1|Fuse|1|Fuse|
+|J1|Mains conn|1|Connector|
+|J2-J4|Output Conn|1|Connector|
+|K1|Relay|1|Relay for temp regulation|
+|Q1|OUTTR|1|Out transistor|
+|Q2|OUTTR|1|Out transistor|
+|Q3|OUTTR|1|Out transistor|
+|Q4|DRIVETR|1|Relay driving transistor|
+|R1-R6|Resistor|1|Resistor|
+|R7|Resistor|1|Resistor|
+|RV1-2|Potenitometer|2|Potentiometer|
+|RV3|Potentiometer|1|Trimmer potentiometer|
+|RV4|Potentiometer|1|Trimmer potentiometer|
+|SW1|Main Switch|1|Main power switch|
+|T1|Transformator|1|220V/24V|
+|U1|Shunt regulator|1|TL431LP|
+|U2|VRM 5v|1|LM317|
+|U3|DS18B20|1|Temperature sensor|
+
